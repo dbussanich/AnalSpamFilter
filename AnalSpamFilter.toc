@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
-## Author: Daniel Bussanich
+## Author: darby
 ## Version: 0.0.1
 
 AnalSpamFilter.lua
