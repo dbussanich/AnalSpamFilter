@@ -1,8 +1,9 @@
 ## Interface: @toc-version-midnight@, @toc-version-retail@, @toc-version-forever@, @toc-version-mists@, @toc-version-cata@, @toc-version-wrath@, @toc-version-bcc@, @toc-version-classic@
 #@debug@
 ## Interface: 16001
-## Title: My Spam Filter
+## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
-## Version: 1.0
+## Author: Daniel Bussanich
+## Version: 0.1
 
 AnalSpamFilter.lua
