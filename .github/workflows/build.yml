@@ -1,4 +1,4 @@
-name: CI
+name: Package
 
 on:
   release:
@@ -6,11 +6,15 @@ on:
 
 jobs:
   build:
-
-  runs-on: ubuntu-22.04
-
-  steps:
-    - name: Create Package
-       uses: BigWigsMods/packager@v2
-       with:
-         args: -S
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Create and upload package
+        uses: BigWigsMods/packager@v2
+        env:
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
