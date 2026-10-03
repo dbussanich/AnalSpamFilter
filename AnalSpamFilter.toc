@@ -1,5 +1,3 @@
-## Interface: @toc-version-forever@
-#@debug@
 ## Interface: 16001
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
