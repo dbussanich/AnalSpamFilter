@@ -4,6 +4,6 @@
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
 ## Author: Daniel Bussanich
-## Version: 0.1
+## Version: 0.0.1
 
 AnalSpamFilter.lua
