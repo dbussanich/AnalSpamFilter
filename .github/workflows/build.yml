@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+
+  runs-on: ubuntu-22.04
+
+  steps:
+    - name: Create Package
+       uses: BigWigsMods/packager@v2
+       with:
+         args: -S
