@@ -1,4 +1,5 @@
-local blockedWords = { "trump", "maga", "maha", "rfk", "great again" }
+local _, ns = ...
+local blockedWords = ns.blockedWords
 
 local function SpamFilter(self, event, msg, author, ...)
     if issecretvalue and issecretvalue(msg) then

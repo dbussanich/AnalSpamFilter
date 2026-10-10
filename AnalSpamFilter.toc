@@ -4,4 +4,5 @@
 ## Author: darby
 ## Version: 0.0.3
 
+BlockList.lua
 AnalSpamFilter.lua
