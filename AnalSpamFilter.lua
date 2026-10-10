@@ -1,3 +1,5 @@
+local blockedWords = { "trump", "maga", "maha", "rfk", "great again" }
+
 local function SpamFilter(self, event, msg, author, ...)
     if issecretvalue and issecretvalue(msg) then
         return false
@@ -16,9 +18,11 @@ local function SpamFilter(self, event, msg, author, ...)
         return true
     end
 
-    -- 3. "trump" + any item link
-    if lowerMsg:find("trump", 1, true) then
-        return true
+    -- 3. Block messages containing any listed word
+    for _, word in ipairs(blockedWords) do
+        if lowerMsg:find(word, 1, true) then
+            return true
+        end
     end
 
     return false
