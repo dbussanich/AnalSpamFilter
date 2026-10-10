@@ -1,4 +1,4 @@
-## Interface: 16001
+## Interface: 16001, 11509, 120007
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
 ## Author: darby
