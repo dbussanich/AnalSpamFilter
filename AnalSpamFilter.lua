@@ -16,6 +16,11 @@ local function SpamFilter(self, event, msg, author, ...)
         return true
     end
 
+    -- 3. "trump" + any item link
+    if lowerMsg:find("trump", 1, true) then
+        return true
+    end
+
     return false
 end
 
