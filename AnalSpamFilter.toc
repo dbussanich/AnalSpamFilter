@@ -1,7 +1,7 @@
-## Interface: 16001, 11509, 120007
+## Interface: 120100, 50504, 40402, 30403, 20506, 11509, 16001
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
 ## Author: darby
-## Version: 0.0.2
+## Version: 0.0.3
 
 AnalSpamFilter.lua
