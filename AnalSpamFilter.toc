@@ -2,6 +2,6 @@
 ## Title: Anal Spam Filter
 ## Notes: Blocks specific chat spam.
 ## Author: darby
-## Version: 0.0.1
+## Version: 0.0.2
 
 AnalSpamFilter.lua
